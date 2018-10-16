@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MindSharpner</string>
+    <string name="first_number">9999</string>
+    <string name="second_number">11111</string>
+    <string name="operator">+</string>
+    <string name="submit">Submit</string>
+    <string name="answer">ANSWER</string>
+</resources>
