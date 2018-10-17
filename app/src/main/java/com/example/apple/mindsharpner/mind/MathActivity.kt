@@ -18,8 +18,8 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
 
 
     companion object {
-         var correct :Int = 0
-         var incorrect : Int =0
+         var mCorrect :String = ""
+         var mIncorrect : String = ""
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,10 +27,6 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
         setContentView(R.layout.activity_main)
         mPresenter.takeView(this)
         setListener()
-    }
-
-    override fun onStart() {
-        super.onStart()
         mPresenter.genrateNumbers()
         mPresenter.genrateOperators()
     }
@@ -45,7 +41,7 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
     }
 
     override fun showMessage() {
-        Toast.makeText(this, "Error in genrating ", Toast.LENGTH_SHORT).show()
+      //  Toast.makeText(this, "Error in generating ", Toast.LENGTH_SHORT).show()
     }
 
 
@@ -70,9 +66,17 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
 
     }
 
-    override fun setCount(correct : String, incorrect :String) {
+    override fun setCount(correct : String, inCorrect :String) {
         tvCorreect.text = correct
         tvInCorreect.text = incorrect
+        mCorrect = correct
+        mIncorrect = inCorrect
+    }
+
+    override fun onResume() {
+        super.onResume()
+        tvCorreect.text = mCorrect
+        tvInCorreect.text = mIncorrect
     }
 
 }

@@ -9,7 +9,7 @@ abstract class MathContract {
         fun setView(twoNumbers: TwoNumbers)
         fun showMessage()
         fun setOperator(op :String)
-        fun setCount(correct : String, incorrect :String)
+        fun setCount(correct : String, inCorrect :String)
 
     }
 
