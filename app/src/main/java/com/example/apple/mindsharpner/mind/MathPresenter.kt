@@ -19,8 +19,8 @@ class MathPresenter
         private var inCorrect : Int = 0
     }
 
-    override fun genrateNumbers() {
-        mCompositeDisposable.add(mNumberRepository.genrateTwoNumber()
+    override fun genrateNumbers(level : Int) {
+        mCompositeDisposable.add(mNumberRepository.genrateTwoNumber(level)
                 .subscribeOn(mSchedulerProvider.io())
                 .observeOn(mSchedulerProvider.ui())
                 .subscribe({
@@ -31,8 +31,8 @@ class MathPresenter
                 }))
     }
 
-    override fun genrateOperators() {
-        mCompositeDisposable.add(mNumberRepository.genrateOperator()
+    override fun genrateOperators(level : Int) {
+        mCompositeDisposable.add(mNumberRepository.genrateOperator(level)
                 .subscribeOn(mSchedulerProvider.io())
                 .observeOn(mSchedulerProvider.ui())
                 .subscribe({
