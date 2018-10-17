@@ -14,12 +14,17 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
     @Inject
     protected lateinit var mPresenter : MathContract.Presenter
 
+    private  var mlevel : Int = 1
+
     override fun getPresenter(): MvpPresenter<MathContract.View> = mPresenter
+
+    var mCorrect :String = ""
+    var mIncorrect : String = ""
 
 
     companion object {
-         var mCorrect :String = ""
-         var mIncorrect : String = ""
+        const val LEVEL = "level"
+
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,8 +32,9 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
         setContentView(R.layout.activity_main)
         mPresenter.takeView(this)
         setListener()
-        mPresenter.genrateNumbers()
-        mPresenter.genrateOperators()
+        mlevel = intent.getIntExtra(LEVEL, 1)
+        mPresenter.genrateNumbers(mlevel)
+        mPresenter.genrateOperators(mlevel)
     }
 
     override fun setView(twoNumbers: TwoNumbers) {
@@ -41,14 +47,14 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
     }
 
     override fun showMessage() {
-      //  Toast.makeText(this, "Error in generating ", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Error in generating ", Toast.LENGTH_SHORT).show()
     }
 
 
     private fun setListener() {
         bt_next.setOnClickListener{
-            mPresenter.genrateNumbers()
-            mPresenter.genrateOperators()
+            mPresenter.genrateNumbers(mlevel)
+            mPresenter.genrateOperators(mlevel)
         }
 
         bt_submit.setOnClickListener {
@@ -59,8 +65,8 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
                 mPresenter.verifyAnswer(f, s, res, tvOperator.text.toString())
                 et_answer.clearFocus()
                 et_answer.text.clear()
-                mPresenter.genrateNumbers()
-                mPresenter.genrateOperators()
+                mPresenter.genrateNumbers(mlevel)
+                mPresenter.genrateOperators(mlevel)
             }
         }
 
@@ -77,6 +83,11 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
         super.onResume()
         tvCorreect.text = mCorrect
         tvInCorreect.text = mIncorrect
+    }
+
+    override fun onBackPressed() {
+
+        finish()
     }
 
 }

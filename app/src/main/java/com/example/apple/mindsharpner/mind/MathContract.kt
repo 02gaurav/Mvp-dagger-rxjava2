@@ -16,8 +16,8 @@ abstract class MathContract {
 
     interface Presenter : MvpPresenter<View> {
 
-        fun genrateNumbers()
-        fun genrateOperators()
+        fun genrateNumbers(level : Int)
+        fun genrateOperators(level : Int)
         fun verifyAnswer(f : Int, s :Int, res :Int, op :String)
 
     }

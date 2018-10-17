@@ -19,6 +19,11 @@ class LevelActivity : BaseMvpActivity<LevelContract.View>(), LevelContract.View,
     protected lateinit var mPresenter: LevelPresenter
 
     private lateinit var mAdapter : LevelAdapter
+
+    companion object {
+
+        const val LEVEL ="level"
+    }
     override fun getPresenter(): MvpPresenter<LevelContract.View> = mPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -46,8 +51,9 @@ class LevelActivity : BaseMvpActivity<LevelContract.View>(), LevelContract.View,
         }
     }
 
-    override fun launchMathActivity() {
+    override fun launchMathActivity(level : Int) {
         val intent = Intent(this, MathActivity::class.java )
+        intent.putExtra(LEVEL, level)
         startActivity(intent)
     }
 

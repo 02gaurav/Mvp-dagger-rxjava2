@@ -6,5 +6,7 @@
     <color name="full_transparent">#00000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="black">#000000</color>
+    <color name="block_color">#DE4DC1</color>
+    <color name="light_blue">#C15BF1</color>
 
 </resources>
