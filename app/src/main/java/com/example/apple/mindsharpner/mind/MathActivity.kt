@@ -68,7 +68,7 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
 
     override fun setCount(correct : String, inCorrect :String) {
         tvCorreect.text = correct
-        tvInCorreect.text = incorrect
+        tvInCorreect.text = inCorrect
         mCorrect = correct
         mIncorrect = inCorrect
     }
