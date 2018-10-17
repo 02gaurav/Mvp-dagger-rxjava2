@@ -17,43 +17,47 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/item_round_rectangle"
             android:text="Correct"/>
 
         <TextView
             android:id="@+id/tvCorreect"
-            android:layout_marginLeft="32dp"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="00"
-            android:layout_marginStart="32dp" />
+            android:padding="4dp"
+            android:hint="00" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@drawable/item_round_rectangle"
+            android:layout_marginLeft="16dp"
             android:padding="8dp"
             android:text="Incorrect"/>
 
         <TextView
             android:id="@+id/tvInCorreect"
-            android:layout_marginLeft="32dp"
+            android:padding="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="00"
-            android:layout_marginStart="32dp" />
+            android:hint="00" />
 
     </LinearLayout>
 
     <LinearLayout
         android:gravity="end"
+        android:padding="8dp"
         android:layout_below="@+id/ll_correct"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <TextView
             android:id="@+id/bt_next"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#DE4DC1"
+            android:layout_width="80dp"
+            android:layout_height="32dp"
+            android:background="@drawable/item_round_rectangle"
             android:gravity="center"
             android:text="NEXT" />
     </LinearLayout>

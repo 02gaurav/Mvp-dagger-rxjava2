@@ -47,7 +47,7 @@ class MathActivity : BaseMvpActivity<MathContract.View>(), MathContract.View{
     }
 
     override fun showMessage() {
-      //  Toast.makeText(this, "Error in generating ", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "Error in generating ", Toast.LENGTH_SHORT).show()
     }
 
 
