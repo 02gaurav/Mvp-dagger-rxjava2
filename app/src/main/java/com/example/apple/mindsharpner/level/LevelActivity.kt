@@ -10,6 +10,7 @@ import com.example.apple.mindsharpner.common.adapter.LevelAdapter
 import com.example.apple.mindsharpner.common.listener.LevelListener
 import com.example.apple.mindsharpner.level.data.Levels
 import com.example.apple.mindsharpner.mind.MathActivity
+import com.example.apple.mindsharpner.ques.QuestionActivity
 import kotlinx.android.synthetic.main.layout_recycler_view.*
 import javax.inject.Inject
 
@@ -31,19 +32,16 @@ class LevelActivity : BaseMvpActivity<LevelContract.View>(), LevelContract.View,
         mPresenter.takeView(this)
         setContentView(R.layout.activity_level)
         setUpRecyclerView()
-        setAdapter()
         mPresenter.getAllLevel()
     }
 
     private fun setUpRecyclerView() {
         val manager = LinearLayoutManager(this)
         recyclerView.layoutManager = manager
-    }
-
-    private fun setAdapter() {
         mAdapter = LevelAdapter(this)
         recyclerView.adapter = mAdapter
     }
+
 
     override fun getList(mlevelList  : List<Levels>){
         if (mlevelList.isNotEmpty()){
@@ -51,10 +49,17 @@ class LevelActivity : BaseMvpActivity<LevelContract.View>(), LevelContract.View,
         }
     }
 
-    override fun launchMathActivity(level : Int) {
-        val intent = Intent(this, MathActivity::class.java )
-        intent.putExtra(LEVEL, level)
-        startActivity(intent)
+    override fun launchMathActivity(level: Int) {
+
+        if (level <= 5) {
+            val intent = Intent(this, MathActivity::class.java)
+            intent.putExtra(LEVEL, level)
+            startActivity(intent)
+        } else {
+            val intent = Intent(this, QuestionActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 

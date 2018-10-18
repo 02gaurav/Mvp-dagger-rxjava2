@@ -35,7 +35,8 @@
             android:background="@drawable/item_round_rectangle"
             android:layout_marginLeft="16dp"
             android:padding="8dp"
-            android:text="Incorrect"/>
+            android:text="Incorrect"
+            android:layout_marginStart="16dp" />
 
         <TextView
             android:id="@+id/tvInCorreect"
