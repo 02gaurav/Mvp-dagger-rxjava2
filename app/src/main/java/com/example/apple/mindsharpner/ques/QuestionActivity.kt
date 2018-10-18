@@ -47,8 +47,13 @@ class QuestionActivity : BaseMvpActivity<QuestionContract.View>(), QuestionContr
        Toast.makeText(this, "Something went wrong", Toast.LENGTH_SHORT).show()
     }
 
-    override fun showError() {
-        Toast.makeText(this, "Check your internet connection ", Toast.LENGTH_SHORT).show()
+    override fun showError(isConnected : Boolean) {
+        if (isConnected) {
+            Toast.makeText(this, "internet connection available", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Check your internet connection ", Toast.LENGTH_SHORT).show()
+        }
+
     }
 
     override fun setData(it: List<QuestionEntity>) {

@@ -8,7 +8,7 @@ abstract class QuestionContract{
     interface View : MvpView {
         fun setView()
         fun showMessage()
-        fun showError()
+        fun showError(isConnected : Boolean)
         fun setData(it: List<QuestionEntity>)
         fun setUpRecyclerView()
     }
