@@ -5,6 +5,8 @@ import com.example.apple.mindsharpner.level.LevelActivity
 import com.example.apple.mindsharpner.level.LevelModule
 import com.example.apple.mindsharpner.mind.MathActivity
 import com.example.apple.mindsharpner.mind.MindModule
+import com.example.apple.mindsharpner.ques.QuestionActivity
+import com.example.apple.mindsharpner.ques.QuestionModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -20,5 +22,8 @@ abstract class ActivityBindingModule {
     @ContributesAndroidInjector(modules = arrayOf(LevelModule::class))
     internal abstract fun bindLevelActivity() : LevelActivity
 
+    @ActivityScoped
+    @ContributesAndroidInjector(modules = arrayOf(QuestionModule::class))
+    internal abstract fun bindQuestionActivity() : QuestionActivity
 
 }
