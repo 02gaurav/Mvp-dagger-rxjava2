@@ -31,4 +31,9 @@ ext{
     rxandroidVersion = '2.1.0'
     dagger2Version = '2.16'
     supportVersion = '28.0.0'
+
+    gsonVersion = '2.8.5'
+    retrofitVersion = '2.4.0'
+    okHttp3Version = '3.11.0'
+    glideVersion = '4.8.0'
 }

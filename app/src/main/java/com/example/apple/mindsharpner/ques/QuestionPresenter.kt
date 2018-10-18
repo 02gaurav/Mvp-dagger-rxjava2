@@ -19,6 +19,7 @@ constructor(private val mSchedulerProvider: SchedulerProvider,
         mCompositeDisposable.add(mQuestionRepository.fetchQuestions()
                 .subscribeOn(mSchedulerProvider.io())
                 .observeOn(mSchedulerProvider.ui())
+                .doOnSubscribe { isInternetAvailable() }
                 .subscribe({
                     mView?.setData(it)
                 },{
@@ -35,7 +36,14 @@ constructor(private val mSchedulerProvider: SchedulerProvider,
     }
 
     override fun isInternetAvailable() {
-        //TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        mCompositeDisposable.add(mQuestionRepository.isInternetAvailable()
+                .subscribeOn(mSchedulerProvider.io())
+                .observeOn(mSchedulerProvider.ui())
+                .subscribe({
+                    mView?.showError(it)
+                },{
+                    it.printStackTrace()
+                }))
     }
 
 }
