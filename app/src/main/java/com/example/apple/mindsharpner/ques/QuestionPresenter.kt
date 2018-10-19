@@ -1,5 +1,6 @@
 package com.example.apple.mindsharpner.ques
 
+import android.widget.Toast
 import com.example.apple.mindsharpner.base.BasePresenter
 import com.example.apple.mindsharpner.base.SchedulerProvider
 import com.example.apple.mindsharpner.repo.QuestionRepository
@@ -16,14 +17,16 @@ constructor(private val mSchedulerProvider: SchedulerProvider,
     }
 
     override fun fetchQuestions() {
-        mCompositeDisposable.add(mQuestionRepository.fetchQuestions()
+        mCompositeDisposable.add(mQuestionRepository.fetchQuestionOnline()
                 .subscribeOn(mSchedulerProvider.io())
                 .observeOn(mSchedulerProvider.ui())
                 .doOnSubscribe { isInternetAvailable() }
                 .subscribe({
                     mView?.setData(it)
+
                 },{
                     it.printStackTrace()
+                    mView?.showMessage()
                 }))
     }
 

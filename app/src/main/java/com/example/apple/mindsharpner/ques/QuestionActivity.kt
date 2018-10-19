@@ -11,7 +11,7 @@ import com.example.apple.mindsharpner.base.BaseMvpActivity
 import com.example.apple.mindsharpner.base.MvpPresenter
 import com.example.apple.mindsharpner.common.adapter.QuestionAdapter
 import com.example.apple.mindsharpner.common.listener.QuestionListener
-import com.example.apple.mindsharpner.data.QuestionEntity
+import com.example.apple.mindsharpner.data.local.QuestionEntity
 import kotlinx.android.synthetic.main.layout_recycler_view.*
 import kotlinx.android.synthetic.main.viewholder_question_select.view.*
 import javax.inject.Inject
