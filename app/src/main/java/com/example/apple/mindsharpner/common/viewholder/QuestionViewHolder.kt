@@ -4,7 +4,7 @@ import android.support.v7.widget.RecyclerView
 import android.view.View
 import android.widget.RadioButton
 import com.example.apple.mindsharpner.common.listener.QuestionListener
-import com.example.apple.mindsharpner.data.QuestionEntity
+import com.example.apple.mindsharpner.data.local.QuestionEntity
 import kotlinx.android.synthetic.main.viewholder_question_select.view.*
 
 class QuestionViewHolder(itemView : View, private val mListner : QuestionListener) : RecyclerView.ViewHolder(itemView){

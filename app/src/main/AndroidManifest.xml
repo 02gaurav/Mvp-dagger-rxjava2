@@ -3,6 +3,7 @@
     package="com.example.apple.mindsharpner">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:name=".MyApplication"
@@ -24,6 +25,7 @@
             android:screenOrientation="portrait" />
         <activity android:name=".ques.QuestionActivity"
             android:screenOrientation="portrait"/>
+        <activity android:name=".splash.SplashActivity" />
     </application>
 
 </manifest>

@@ -7,6 +7,8 @@ import com.example.apple.mindsharpner.mind.MathActivity
 import com.example.apple.mindsharpner.mind.MindModule
 import com.example.apple.mindsharpner.ques.QuestionActivity
 import com.example.apple.mindsharpner.ques.QuestionModule
+import com.example.apple.mindsharpner.splash.SplashActivity
+import com.example.apple.mindsharpner.splash.SplashModule
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
@@ -25,5 +27,9 @@ abstract class ActivityBindingModule {
     @ActivityScoped
     @ContributesAndroidInjector(modules = arrayOf(QuestionModule::class))
     internal abstract fun bindQuestionActivity() : QuestionActivity
+
+    @ActivityScoped
+    @ContributesAndroidInjector(modules = arrayOf(SplashModule::class))
+    internal abstract fun bindSplashActivity() : SplashActivity
 
 }

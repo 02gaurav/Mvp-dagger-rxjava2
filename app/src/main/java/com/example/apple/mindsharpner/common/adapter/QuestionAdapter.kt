@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import com.example.apple.mindsharpner.R
 import com.example.apple.mindsharpner.common.listener.QuestionListener
 import com.example.apple.mindsharpner.common.viewholder.QuestionViewHolder
-import com.example.apple.mindsharpner.data.QuestionEntity
+import com.example.apple.mindsharpner.data.local.QuestionEntity
 import java.util.ArrayList
 
 class QuestionAdapter(private val mListener : QuestionListener) : RecyclerView.Adapter<QuestionViewHolder>(){
@@ -30,6 +30,7 @@ class QuestionAdapter(private val mListener : QuestionListener) : RecyclerView.A
 
     fun addToBottom(mList: List<QuestionEntity>){
         mQuestionList.addAll(mList)
+        notifyDataSetChanged()
     }
 
 }
