@@ -5,7 +5,12 @@ import com.example.apple.mindsharpner.base.MvpView
 
 abstract class SplashContract{
 
-    interface View : MvpView
+    interface View : MvpView{
+        fun startLevelActivity()
+    }
 
-    interface Presenter : MvpPresenter<View>
+    interface Presenter : MvpPresenter<View> {
+
+        fun waitForlaunch()
+    }
 }
