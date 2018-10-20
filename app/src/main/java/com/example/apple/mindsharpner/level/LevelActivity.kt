@@ -2,6 +2,7 @@ package com.example.apple.mindsharpner.level
 
 import android.content.Intent
 import android.os.Bundle
+import android.support.v7.widget.GridLayoutManager
 import android.support.v7.widget.LinearLayoutManager
 import com.example.apple.mindsharpner.R
 import com.example.apple.mindsharpner.base.BaseMvpActivity
@@ -36,7 +37,7 @@ class LevelActivity : BaseMvpActivity<LevelContract.View>(), LevelContract.View,
     }
 
     private fun setUpRecyclerView() {
-        val manager = LinearLayoutManager(this)
+        val manager = GridLayoutManager(this, 2)
         recyclerView.layoutManager = manager
         mAdapter = LevelAdapter(this)
         recyclerView.adapter = mAdapter

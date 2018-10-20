@@ -10,15 +10,15 @@ class LevelRepository
 constructor() {
 
 
-    var list = listOf(Levels("1", "#CEAFDC"),
-            Levels("2", "#CAA1DC"),
-            Levels("3", "#C692DE"),
-            Levels("4", "#BE7DDC"),
-            Levels("5", "#BD73E0"),
-            Levels("6", "#BE6CE3"),
-            Levels("7", "#BA60E4"),
-            Levels("8", "#B959E6"),
-            Levels("9", "#AB3FDE"),
+    var list = listOf(Levels("1", "#46B1E7"),
+            Levels("2", "#E746DD"),
+            Levels("3", "#59E746"),
+            Levels("4", "#FF5733"),
+            Levels("5", "#C70039"),
+            Levels("6", "#4663E7"),
+            Levels("7", "#C946E7"),
+            Levels("8", "#947326"),
+            Levels("9", "#945A26"),
             Levels("10", "#9621CC"))
 
 

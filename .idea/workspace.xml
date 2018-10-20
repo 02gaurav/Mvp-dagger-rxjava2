@@ -16,13 +16,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e22116be-efcd-4f41-99ff-9429135902fd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_smartling.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_db_framework_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_runtime_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_persistence_room_rxjava2_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/extensions/RxExtensions.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/dao/QuestionDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/db/AppDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,38 +68,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="QuestionPresenter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="e#45#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxExtensions.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/extensions/RxExtensions.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelPresenter.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelActivity.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="viewholder_level_select.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="53" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SplashActivity.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="e#47#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplashPresenter.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="e#47#202#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SplashContract.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="e#47#153#0" expanded="true" />
-              </folding>
+              <caret line="19" column="43" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -87,8 +134,35 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+            <state relative-caret-position="135">
+              <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelRepository.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionRepository.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuestionDbHelper.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -100,8 +174,8 @@
       <list>
         <option value="valueResourceFile" />
         <option value="resourceFile" />
-        <option value="Kotlin File" />
         <option value="layoutResourceFile" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -2559,13 +2633,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_recycler_view.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/data/levelDataModals.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/mind/MathContract.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/mind/MathPresenter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/LevelViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/LevelAdapter.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/NumberRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/mind/MathActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/item_round_rectangle.xml" />
@@ -2574,16 +2641,12 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_question.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/viewholder_question_select.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/listener/LevelListener.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/Qualifier/NormalOkHttpClient.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/modal/datamodel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/components/AppComponent.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/listener/QuestionListener.kt" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/utils/NetworkUtils.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/MyApplication.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/datamodel.kt" />
@@ -2593,23 +2656,34 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/dataModals.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/deserializer/UriDeserial.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/remote/model/BaseAuthRequest.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/remote/services/QuestionService.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/NetModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/builders/ActivityBindingModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/db/AppDatabase.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/dao/QuestionDao.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/AppModule.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/extensions/RxExtensions.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt" />
       </list>
     </option>
   </component>
@@ -2702,13 +2776,20 @@
             <path>
               <item name="Mvp-dagger-rxjava2" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="mindsharpner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mvp-dagger-rxjava2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="Mvp-dagger-rxjava2" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="mipmap" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="Mvp-dagger-rxjava2" type="1abcf292:AndroidViewProjectNode" />
@@ -2727,7 +2808,7 @@
     <property name="DEBUGGABLE_PROCESS" value="com.example.apple.mindsharpner" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="splP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt&#10;spl&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt&#10;ic_launcher_background.xml&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/drawable/ic_launcher_background.xml&#10;ICLAUNCHER.XML&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml&#10;ICLAUNCHER&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/mipmap-hdpi/ic_launcher.png&#10;IC_LAUNCHER&#9;PSI&#9;JAVA://com.example.apple.mindsharpner.R.drawable#ic_launcher_background&#10;An&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;que&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt&#10;QuestC&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionContract.kt&#10;an&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;mYA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/MyApplication.kt&#10;queP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt&#10;queR&#9;null&#9;null&#10;queC&#9;null&#9;null&#10;queA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt&#10;quePre&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt&#10;myA&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;Q&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/QuestionViewHolder.kt&#10;anM&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;Num&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/NumberRepository.kt&#10;lis&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/listener/LevelListener.kt&#10;levV&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/LevelViewHolder.kt&#10;leveRe&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt&#10;mathA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/mind/MathActivity.kt&#10;matC&#9;null&#9;null&#10;math&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/mind/MathPresenter.kt&#10;LevelP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt&#10;maP&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="levelRe&#9;null&#9;null&#10;splas&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt&#10;leveP&#9;null&#9;null&#10;queP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt&#10;queRe&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt&#10;An&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;splP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt&#10;spl&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt&#10;ic_launcher_background.xml&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/drawable/ic_launcher_background.xml&#10;ICLAUNCHER.XML&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml&#10;ICLAUNCHER&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/res/mipmap-hdpi/ic_launcher.png&#10;IC_LAUNCHER&#9;PSI&#9;JAVA://com.example.apple.mindsharpner.R.drawable#ic_launcher_background&#10;que&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt&#10;QuestC&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionContract.kt&#10;an&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;mYA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/MyApplication.kt&#10;queR&#9;null&#9;null&#10;queC&#9;null&#9;null&#10;queA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt&#10;quePre&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt&#10;myA&#9;null&#9;null&#10;and&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;Q&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/QuestionViewHolder.kt&#10;anM&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/AndroidManifest.xml&#10;Num&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/NumberRepository.kt&#10;lis&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/listener/LevelListener.kt&#10;levV&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/LevelViewHolder.kt&#10;leveRe&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt&#10;mathA&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/mind/MathActivity.kt&#10;matC&#9;null&#9;null&#10;math&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/mind/MathPresenter.kt&#10;LevelP&#9;FILE&#9;file:///Users/apple/Documents/Mvp-dagger-rxjava2/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt&#10;maP&#9;null&#9;null" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="device.picker.selection" value="c2ddc2830704" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -2877,14 +2958,14 @@
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2907,71 +2988,76 @@
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/remote/services/QuestionService.kt</url>
           <line>9</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
           <line>50</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
-          <line>53</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt</url>
-          <line>59</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>46</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>66</line>
           <properties />
-          <option name="timeStamp" value="42" />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="43" />
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>questions</expression-string>
+        <language-id>kotlin</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mQuestionList</expression-string>
         <language-id>kotlin</language-id>
@@ -2985,245 +3071,12 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/mind/MathActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="62" />
-          <folding>
-            <element signature="e#46#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/remote/service.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/Qualifier/NormalOkHttpClient.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#54#166#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewholder_question_select.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/listener/QuestionListener.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#56#114#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="55" column="71" selection-start-line="55" selection-start-column="71" selection-end-line="55" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/utils/NetworkUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="e#46#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/MyApplication.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#40#339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/example/apple/mindsharpner/di/components/AppComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jdk/Contents/Home/jre/lib/rt.jar!/java/net/SocketInputStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/e7c96b4fe5651490d8f3c022042940d743a3bdd9/okio-1.14.0-sources.jar!/okio/Okio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/e7c96b4fe5651490d8f3c022042940d743a3bdd9/okio-1.14.0-sources.jar!/okio/AsyncTimeout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="236" selection-start-line="236" selection-end-line="236" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="1153" selection-start-line="1153" selection-end-line="1153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/JsonSyntaxException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/datamodel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/entity/BaseEntity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/viewholder/QuestionViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="46" />
-          <folding>
-            <element signature="e#58#363#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/dataModals.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/kapt/debug/com/example/apple/mindsharpner/di/components/DaggerAppComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
-          <folding>
-            <element signature="e#17242#17243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/components/AppComponent.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/internal/observers/ConsumerSingleObserver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/GsonBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="495" column="21" selection-start-line="495" selection-start-column="21" selection-end-line="495" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionContract.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding>
             <element signature="e#45#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
-          <folding>
-            <element signature="e#51#393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="e#45#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3247,13 +3100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/remote/services/QuestionService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -3273,19 +3119,6 @@
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#456#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/NetModule.kt">
@@ -3364,26 +3197,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#47#283#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashContract.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -3396,11 +3209,269 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashPresenter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="75">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/dataModals.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/entity/BaseEntity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="59" column="75" selection-start-line="59" selection-start-column="75" selection-end-line="59" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/Question.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
           <folding>
-            <element signature="e#47#202#0" expanded="true" />
+            <element signature="e#51#437#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/dao/QuestionDao.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="e#55#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/example/apple/mindsharpner/di/components/AppComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/local/db/AppDatabase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+          <folding>
+            <element signature="e#54#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/di/modules/AppModule.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/adapter/QuestionAdapter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/internal/operators/single/SingleDoOnSuccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/internal/operators/observable/ObservableSingleSingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.4.0/891c7baf00bc0bddee52abab9979d1ee84654789/adapter-rxjava2-2.4.0-sources.jar!/retrofit2/adapter/rxjava2/CallExecuteObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.4.0/891c7baf00bc0bddee52abab9979d1ee84654789/adapter-rxjava2-2.4.0-sources.jar!/retrofit2/adapter/rxjava2/BodyObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/Scheduler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="583" selection-start-line="583" selection-end-line="583" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/internal/schedulers/ScheduledRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="1153" selection-start-line="1153" selection-end-line="1153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="12096" selection-start-line="12096" selection-end-line="12096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.1/d35cbfeb5eae0646f288644577ac6152791fa711/rxjava-2.2.1-sources.jar!/io/reactivex/internal/operators/observable/ObservableSubscribeOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="96" selection-start-line="96" selection-end-line="96" />
+          <folding>
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/data/repository/question/QuestionDbHelper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/QuestionRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/ques/QuestionPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="e#45#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/common/extensions/RxExtensions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelPresenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_recycler_view.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_level.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/level/LevelActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/viewholder_level_select.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/splash/SplashActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/apple/mindsharpner/repo/LevelRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>

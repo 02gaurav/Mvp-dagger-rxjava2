@@ -1,6 +1,5 @@
 package com.example.apple.mindsharpner.ques
 
-import android.widget.Toast
 import com.example.apple.mindsharpner.base.BasePresenter
 import com.example.apple.mindsharpner.base.SchedulerProvider
 import com.example.apple.mindsharpner.repo.QuestionRepository
@@ -11,23 +10,40 @@ class QuestionPresenter
 constructor(private val mSchedulerProvider: SchedulerProvider,
             private val mQuestionRepository: QuestionRepository) : BasePresenter<QuestionContract.View>(), QuestionContract.Presenter {
 
+
+        var  isInternetAvailable = mQuestionRepository.isInternetAvailable().blockingGet()
+
+
+
     override fun takeView(view: QuestionContract.View) {
         super<BasePresenter>.takeView(view)
+        isInternetAvailable()
         initializeAdapter()
     }
 
     override fun fetchQuestions() {
-        mCompositeDisposable.add(mQuestionRepository.fetchQuestionOnline()
-                .subscribeOn(mSchedulerProvider.io())
-                .observeOn(mSchedulerProvider.ui())
-                .doOnSubscribe { isInternetAvailable() }
-                .subscribe({
-                    mView?.setData(it)
-
-                },{
-                    it.printStackTrace()
-                    mView?.showMessage()
-                }))
+       if (isInternetAvailable) {
+           mCompositeDisposable.add(mQuestionRepository.fetchQuestionOnline()
+                   .subscribeOn(mSchedulerProvider.io())
+                   .observeOn(mSchedulerProvider.ui())
+                   .doOnSubscribe { isInternetAvailable() }
+                   .subscribe({
+                       mView?.setData(it)
+                   }, {
+                       it.printStackTrace()
+                       mView?.showMessage()
+                   }))
+       } else {
+           mCompositeDisposable.add(mQuestionRepository.loadFromDb()
+                   .subscribeOn(mSchedulerProvider.io())
+                   .observeOn(mSchedulerProvider.ui())
+                   .subscribe({
+                       mView?.setData(it)
+                   }, {
+                       it.printStackTrace()
+                       mView?.showMessage()
+                   }))
+       }
     }
 
     override fun initializeAdapter() {
@@ -43,7 +59,8 @@ constructor(private val mSchedulerProvider: SchedulerProvider,
                 .subscribeOn(mSchedulerProvider.io())
                 .observeOn(mSchedulerProvider.ui())
                 .subscribe({
-                    mView?.showError(it)
+                    isInternetAvailable = it
+//                    mView?.showError(it)
                 },{
                     it.printStackTrace()
                 }))

@@ -1,5 +1,7 @@
 package com.example.apple.mindsharpner.data.local
 
+import android.arch.persistence.room.Entity
+import android.arch.persistence.room.PrimaryKey
 import android.os.Parcel
 import android.os.Parcelable
 import com.example.apple.mindsharpner.data.local.entity.BaseEntity
@@ -10,6 +12,7 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.lang.reflect.Type
 
+@Entity(tableName = "questions")
 class QuestionEntity() : BaseEntity<QuestionEntity>(), Parcelable {
 
     companion object  CREATOR : Parcelable.Creator<QuestionEntity> {
@@ -44,6 +47,7 @@ class QuestionEntity() : BaseEntity<QuestionEntity>(), Parcelable {
         }
     }
 
+    @PrimaryKey
     @SerializedName("quesId")
     var quesId: String = ""
 
